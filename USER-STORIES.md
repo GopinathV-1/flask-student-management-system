@@ -20,6 +20,7 @@
    * As a teacher *ISBAT create a create assignment post.
    * As a teacher *ISBAT delete my own assignment post.
    * As a teacher *ISBAT update my assignment post.
+   * As a teacher *ISBAT update students profile.
    * As a teacher *ISBAT see an error page if I enter wrong URL. (Error Handling)
    * As a student *ISBAT see an error page if I enter wrong URL. (Error Handling)
 
