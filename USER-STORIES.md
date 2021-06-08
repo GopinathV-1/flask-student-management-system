@@ -10,19 +10,20 @@
 
 #### User Stories
 
-   * As a student *ISBAT see all assignments.
+   * As a student *ISBAT view all assignments.
    * As a student *ISBAT register. (Sign Up)
    * As a student *ISBAT login. (Authentication)
    * As a student *ISBAT update profile.
+   * As a student *ISBAT view in-charge teachers.
    * As a teacher *ISBAT register. (Sign Up)
    * As a teacher *ISBAT login. (Authentication)
    * As a teacher *ISBAT update profile.
-   * As a teacher *ISBAT create a create assignment post.
+   * As a teacher *ISBAT create assignment post.
    * As a teacher *ISBAT delete my own assignment post.
    * As a teacher *ISBAT update my assignment post.
-   * As a teacher *ISBAT update students profile.
-   * As a teacher *ISBAT see an error page if I enter wrong URL. (Error Handling)
-   * As a student *ISBAT see an error page if I enter wrong URL. (Error Handling)
+   * As a teacher *ISBAT update list student.
+   * As a teacher *ISBAT see an error page if I enter a wrong URL. (Error Handling)
+   * As a student *ISBAT see an error page if I enter a wrong URL. (Error Handling)
 
 
 #### Bonus:
