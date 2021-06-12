@@ -32,11 +32,30 @@ $ pip install -r requirements.txt
 
 #### Part 1 providing information to .env file.
 
-To run this, you need to provide the environment values in .env file.
+To run this, you need to create and provide the environment values in .env file.
+
+### Move to project directory
+```bash
+$ cd flask-toy-project
+```
+
+### Create .env file
+create a .env file **inside studentproject folder**
+
+```bash
+$ cd studentproject
+$ touch .env
+```
+#### provide these information inside .env file.
+
+```bash
+DATABASE_URL = 'postgresql://test:test@localhost:5432/test'
+USER_MAIL = ''
+USER_PASSWORD = ''
+SECRET_KEY = ''
+```
 
 #### open the terminal
-
-## step1
 
 ### SECRET_KEY generation
 
@@ -46,11 +65,6 @@ $ python3
 >>> secrets.token_hex(16)
 ```
 Provide **email id and password** in .env file. 
-
-### Move to project directory
-```bash
-$-> cd flask-toy-project
-```
 
 ### Create Database
 ```bash
@@ -85,7 +99,7 @@ Now you can load the requirements.txt.
 #### Part 2 Running the app in Python server
 
 ```bash
-$ cd flask-toy-project-> python3 run.py
+$ python3 run.py
 
 ```
 Now you can access the app on your local server
