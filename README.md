@@ -98,7 +98,7 @@ $ source mypython/bin/activate
 
 Now you can load the requirements.txt.
 
-#### Part 2 Running the app in Python server
+#### Part 3: Running the app
 
 ```bash
 $ python3 run.py
