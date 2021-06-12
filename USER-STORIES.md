@@ -28,7 +28,7 @@
 
 #### Bonus:
 
-   * As a student *ISBAT search any text. (Full text Search)
-   * As a teacher *ISBAT search any text. (Full text Search)
+   * As a student *ISBAT search any text. (Full-text  Search)
+   * As a teacher *ISBAT search any text. (Full-text Search)
 
 \* ISBAT = I should be able to.

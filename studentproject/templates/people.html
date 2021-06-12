@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for each in people %}
+        <article class="media content-section">
+            <div class="article-metadata">
+                <div class="mediaquad">
+                <div><img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + each.image_file) }}"></div>
+                <div class="media-body-p">
+                    <h4>{{each.username}}</h4>
+                </div>
+                <div class="media-body-p"> 
+                    <h5 class="text-secondary">{{'Class-'}}{{each.standard}}</h5>
+                </div>
+                {% if each.role == 'Student' %}
+                <div class="media-body-p"> 
+                    <h5 class="text-secondary">{{'Section-'}}{{each.section}}</h5>
+                </div>
+                {% else %}
+                <div class="media-body-p"> 
+                    <h5 class="text-secondary">{{each.subject}}</h5>
+                </div>
+                {% endif %}
+            </div>
+            </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
