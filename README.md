@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 
 ## Running the App
 
-#### Part 1 providing information to .env file.
+#### Part 1: Create and provide information to .env file.
 
 To run this, you need to create and provide the environment values in .env file.
 
@@ -65,6 +65,8 @@ $ python3
 >>> secrets.token_hex(16)
 ```
 Provide **email id and password** in .env file. 
+
+### Part 2: Create Database and virtualenv
 
 ### Create Database
 ```bash
