@@ -108,7 +108,7 @@ class UpdateAccountForm(FlaskForm):
                                    ('Biology', 'Biology')],
                           default='English')
     picture = FileField('Update Profile Picture',
-                        validators=[FileAllowed(['jpg', 'png', 'jpeg'])])
+                        validators=[FileAllowed(['jpg', 'png'])])
     submit = SubmitField('Update')
 
     def validate_username(self, username):
